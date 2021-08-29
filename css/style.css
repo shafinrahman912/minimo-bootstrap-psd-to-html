@@ -1,0 +1,168 @@
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+/*header start*/
+
+header {
+    background-color: #ffffff;
+    padding: 70px 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.header_nav {
+    text-transform: uppercase;
+}
+
+.header_nav ul li a {
+    padding-right: 120px !important;
+    font-size: 14px;
+}
+
+.header_nav ul li:last-child a {
+    padding-right: 0 !important;
+}
+
+/*content start*/
+
+.content {
+    padding: 100px 0 130px 0;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.content_title {
+    padding: 30px 0;
+    color: #626262;
+    font-size: 30px;
+}
+
+.content_body {
+    padding-bottom: 76px;
+    color: #626262;
+    font-size: 14px;
+}
+
+.common_ubuntu {
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+/*.single service*/
+
+.single_service {
+    margin-bottom: 125px;
+    padding-left: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.single_service_title {
+    color: #626262;
+    font-size: 30px;
+}
+
+.single_service_body {
+    color: #626262;
+    font-size: 14px;
+}
+
+/*sign up start*/
+
+.signup {
+    font-family: 'Playfair Display', serif;
+    padding: 72px 0;
+    background-color: #f0f0f0;
+}
+
+.sign_up_header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+.sign_up_email form {
+    background: transparent;
+    position: relative;
+    border-bottom: 2px solid #000000;
+    padding-top: 80px;
+    width: 69%;
+    margin: 0 auto;
+
+    /*    margin: 0 auto;*/
+}
+
+.email {
+    border: none;
+    background: transparent;
+
+}
+
+.email_icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: transparent;
+    border: none;
+}
+
+/*service 1 start*/
+
+.service1 {
+    padding: 100px 0 195px 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.service1_btn button {
+    font-size: 20px;
+    border: 1px solid #626262;
+    border-radius: 0;
+}
+
+.single_service1 {
+    padding-left: 20px;
+    margin-bottom: 160px;
+}
+
+/*footer start*/
+
+footer {
+    padding: 45px 0;
+    background-color: #f0f0f0;
+    font-family: 'Playfair Display', serif;
+}
+
+.footer_link ul li a {
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer_link ul li:first-child a {
+    padding-left: 20px;
+}
+
+.footer_logo {
+    font-size: 20px;
+    color: #626262;
+}
+
+.footer_logo ul li a {
+    text-decoration: none;
+}
+
+.footer_logo ul li a i {
+    padding-left: 22px;
+    color: #626262;
+
+}
+
+.footer_logo ul li:first-child a {
+    font-size: 14px;
+    color: #000000;
+}

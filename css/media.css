@@ -1,0 +1,122 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+    .header_nav ul li a {
+        float: right;
+    }
+    .header_nav ul li a {
+        padding-right: 0 !important;
+    }
+    .sign_up_header h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+    }
+    .single_service_body{
+        text-align: center;
+    }
+    .single_service_title{
+        text-align: center;
+    }
+    .sign_up_email form {
+        width: 100%;
+        margin-left:10px;
+    }
+    .service1 {
+        padding: 50px 0 95px 0;
+    }
+    .content {
+        padding: 40px 0 50px 0;
+    }
+    .content_body{
+        padding-bottom: 30px;
+    }
+    .footer_link{
+        text-align: center;
+        margin: 20px 0;
+    }
+    .footer_logo {
+        text-align: center;
+    }
+    .footer_logo ul li a{
+        padding: 0 10px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header_nav ul li a {
+        float: right;
+    }
+    .header_nav ul li a {
+        padding-right: 0 !important;
+    }
+    .single_service_body{
+        text-align: center;
+    }
+    .single_service_title{
+        text-align: center;
+    }
+    .sign_up_email form {
+        width: 100%;
+    }
+     .service1 {
+        padding: 50px 0 105px 0;
+    }
+    .content {
+        padding: 40px 0 50px 0;
+    }
+    .content_body{
+        padding-bottom: 30px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header_nav ul li a {
+        padding-right: 0 !important;
+        margin-right: 30px;
+    }
+    .header_nav ul li:last-child a {
+        margin-right: 0px;
+    }
+    .content {
+        padding: 50px 0 60px 0;
+    }
+    .single_service_title {
+        color: #626262;
+        font-size: 20px;
+    }
+    .service1 {
+        padding: 100px 0 125px 0;
+    }
+    .sign_up_email form {
+        width: 100%;
+    }
+    .single_service1 {
+        padding-left: 20px;
+        margin-bottom: 100px;
+        
+    }
+    .single_service_body{
+        text-align: center;
+    }
+    .single_service_title{
+        text-align: center;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   .sign_up_email form {
+        width: 100%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+    ...
+}
